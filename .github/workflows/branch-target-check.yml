@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  check_branch:
+  branch-target-check:
     runs-on: ubuntu-latest
     steps:
       - name: Check merge is allowed
