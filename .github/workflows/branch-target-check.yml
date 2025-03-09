@@ -4,6 +4,7 @@ name: branch-target-check
 
 on:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   check_branch:
