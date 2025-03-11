@@ -4,6 +4,14 @@ name: branch-target-check
 
 on:
   pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+      - unlocked
+      - enqueued
+      - ready_for_review
   workflow_dispatch:
 
 jobs:
