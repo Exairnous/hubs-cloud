@@ -14,13 +14,14 @@ on:
       - unlocked
       - enqueued
       - ready_for_review
+  push: # Trigger the check on a regular push to make rulesets that require this check happy (everything but pull request events are ignored in the job below).
 
 jobs:
   base-branch-is-allowed:
     runs-on: ubuntu-latest
     steps:
       - name: Check if merging to the base branch is allowed
-        if: github.base_ref == github.event.repository.default_branch && (github.head_ref != 'development' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name)
+        if: github.event_name == 'pull_request' && github.base_ref == github.event.repository.default_branch && (github.head_ref != 'development' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name)
         run: |
-          echo "base_ref: ${{ github.base_ref }}; head_ref: ${{ github.head_ref }}; base_repo: ${{ github.event.pull_request.base.repo.full_name }}; head_repo: ${{ github.event.pull_request.head.repo.full_name }}; ERROR: You are only allowed to merge to the '${{ github.event.repository.default_branch }}' branch from the 'development' branch."
+          echo "ERROR: You are only allowed to merge to the '${{ github.event.repository.default_branch }}' branch from the 'development' branch in this repository.  base_ref: ${{ github.base_ref }}; head_ref: ${{ github.head_ref }}; base_repo: ${{ github.event.pull_request.base.repo.full_name }}; head_repo: ${{ github.event.pull_request.head.repo.full_name }}; "
           exit 1
