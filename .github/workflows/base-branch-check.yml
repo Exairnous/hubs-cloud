@@ -14,7 +14,10 @@ on:
       - unlocked
       - enqueued
       - ready_for_review
-  push: # Trigger the check on a regular push to make rulesets that require this check happy (everything but pull request events are ignored in the job below).
+  # Trigger the check on a regular push to make rulesets that require this check happy (everything but pull request events are ignored in the job below).
+  push:
+  create:
+  delete:
 
 jobs:
   base-branch-is-allowed:
