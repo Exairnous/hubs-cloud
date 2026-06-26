@@ -1,6 +1,6 @@
 # Hubs Instance Privacy Policy
 
-version 0.2, Effective June 25, 2026
+version 0.3, Effective June 26, 2026
 
 Your privacy is important.  It is the policy of the Instance Owner (Imaginer) to respect your privacy and comply with applicable laws and regulations regarding any personal information that is collected about you when interacting with the Hubs Instance (located at https://imaginer-testing.top).
 
@@ -25,6 +25,8 @@ Instance Owner - The person or entity that owns the Hubs Instance.
 The Hubs Instance is located on servers in Canada, but users can connect to it from all over the world.  This means that your information might be processed on servers located outside the country where you live, and that country may have a different level of data protection regulation than yours.  Other users may be located outside the country where you live, so information they have access to may have a different level of data protection regulation than yours.
 
 The Instance Owner only collects and processes personal information for legitimate reasons in order to operate and improve the Hubs Instance.  The information is either provided voluntarily or collected automatically.  If the information is provided voluntarily, you may change or remove it at any time.  If the information is collected automatically, you may contact the Instance Owner and ask that it be removed; however the Instance Owner will retain any needed information for as long as necessary in order to comply with any legal obligations.
+
+Note: the email address you provide for an account is provided voluntarily, but also ends up in automatic systems, so you will need to contact the Instance Owner for full removal.
 
 ## Security of Personal Information
 
@@ -148,8 +150,11 @@ If you have any other questions regarding personal data or privacy practices, yo
 
 **Cookies**: Hubs doesn't use any cookies; however, it does use local storage to store some data locally on your browser.
 
-**Local storage**: Hubs stores data relating to your use of Hubs in the local storage of your browser. You will find in the local storage information such as whether you have completed the welcome tour, your account credentials, your preferences, your name and avatar, some usage stats, and other technical data.  The account credentials are cleared when you sign out or after ~3 months; all the other data persists until it is removed.
+**Local storage**: Hubs stores data relating to your use of Hubs in the local storage of your browser. You will find in the local storage information such as whether you have completed the welcome tour, your account credentials (email address and login token), your preferences, your name and avatar, some usage stats, and other technical data.  The account credentials are cleared when you sign out or after ~3 months; all the other data persists until it is removed.
 
 **Technical information**: You can learn more by looking at the code itself: [Hubs](https://github.com/Hubs-Foundation/hubs) (the front-end) [Dialog](https://github.com/Hubs-Foundation/dialog) (the webRTC server), [Reticulum](https://github.com/Hubs-Foundation/reticulum) (the backend web server), the [Scene Editor ("Spoke")](https://github.com/Hubs-Foundation/Spoke), and the [Discord Bot](https://github.com/Hubs-Foundation/hubs-discord-bot) (enables users to connect their Discord community to Hubs).
 
 There are articles online about [How Hubs Uses WebRTC](https://zachfox.io/hubs-webrtc-tester/about/).
+
+
+*This document is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en), it was adapted from https://web.archive.org/web/20220616155730/https://www.mozilla.org/en-US/privacy/hubs/*

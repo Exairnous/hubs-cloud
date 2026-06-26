@@ -1,6 +1,6 @@
 # Hubs Instance Terms of Service
 
-version 0.1, Effective June 21, 2026
+version 0.2, Effective June 26, 2026
 
 These Terms of Service are between you and the Instance Owner (Imaginer) and govern your use of the Hubs Instance and outline your rights and responsibilities.
 
@@ -112,3 +112,6 @@ In the case of any conflict or ambiguity between this (English) version and a tr
 ## Contact
 
 If you wish to contact the Instance Owner for support, to provide feedback, to report abuse or any other violation of these Terms of Service, or anything else relating to the Hubs Instance, you can do so by direct messaging `@imaginer_r_i` via Discord.  In order to direct message someone, you must both be present on at least one shared Discord server, so here is an [invite to the Hubs Discord Server](https://discord.com/invite/hubs-498741086295031808) to facilitate this.  [Discord’s Privacy Policy](https://discord.com/privacy/) will apply to all interaction with Discord.
+
+
+*This document is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en), it was adapted from https://web.archive.org/web/20220616155710/https://www.mozilla.org/en-US/about/legal/terms/hubs/*

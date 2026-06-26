@@ -1,6 +1,6 @@
 # Hubs Instance Acceptable Use Policy
 
-version 0.1, Effective June 23, 2026
+version 0.2, Effective June 26, 2026
 
 ## Unacceptable Use
 
@@ -43,3 +43,6 @@ Violations of this policy will be addressed as described in the **Conditions of 
 This Acceptable Use Policy may be updated from time to time.  If the changes are substantive, they may be announced in a relevant place; however, you are responsible for checking this policy and ensuring that it is still acceptable to you.
 
 Your continued use of the Hubs Instance after any update to this policy shall constitute your acceptance of the changes.  To aid your review of this document, you may see the changes to it by viewing the commit history.
+
+
+*This document is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).*
