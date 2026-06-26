@@ -19,7 +19,7 @@ jobs:
   default-branch-pr-guard:
     runs-on: ubuntu-latest
     steps:
-      - uses: GitHubSecurityLab/actions-permissions/monitor@v1
+      - uses: GitHubSecurityLab/actions-permissions/monitor@bf82d13b9b10051d224345ab9184f5ede0a94289
       - name: Prevent unsanctioned pull requests to the default branch
         if: github.base_ref == github.event.repository.default_branch && (github.head_ref != 'development' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name)
         run: |
