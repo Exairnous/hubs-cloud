@@ -1,6 +1,6 @@
 # Hubs Instance Privacy Policy
 
-version 0.1, Effective June 22, 2026
+version 0.2, Effective June 25, 2026
 
 Your privacy is important.  It is the policy of the Instance Owner (Imaginer) to respect your privacy and comply with applicable laws and regulations regarding any personal information that is collected about you when interacting with the Hubs Instance (located at https://imaginer-testing.top).
 
@@ -146,7 +146,9 @@ If you have any other questions regarding personal data or privacy practices, yo
 
 ## Other Information You Should Know
 
-**Local storage**: Hubs stores data relating to your use of Hubs in the local storage of your browser.  You will find in the local storage information such as whether you have completed the welcome tour, your account credentials, your preferences, your name and avatar, some usage stats, and other technical data.
+**Cookies**: Hubs doesn't use any cookies; however, it does use local storage to store some data locally on your browser.
+
+**Local storage**: Hubs stores data relating to your use of Hubs in the local storage of your browser. You will find in the local storage information such as whether you have completed the welcome tour, your account credentials, your preferences, your name and avatar, some usage stats, and other technical data.  The account credentials are cleared when you sign out or after ~3 months; all the other data persists until it is removed.
 
 **Technical information**: You can learn more by looking at the code itself: [Hubs](https://github.com/Hubs-Foundation/hubs) (the front-end) [Dialog](https://github.com/Hubs-Foundation/dialog) (the webRTC server), [Reticulum](https://github.com/Hubs-Foundation/reticulum) (the backend web server), the [Scene Editor ("Spoke")](https://github.com/Hubs-Foundation/Spoke), and the [Discord Bot](https://github.com/Hubs-Foundation/hubs-discord-bot) (enables users to connect their Discord community to Hubs).
 
