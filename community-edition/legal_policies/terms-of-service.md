@@ -1,6 +1,6 @@
 # Hubs Instance Terms of Service
 
-version 0.2, Effective June 26, 2026
+version 0.3, Effective July 12, 2026
 
 These Terms of Service are between you and the Instance Owner (Imaginer) and govern your use of the Hubs Instance and outline your rights and responsibilities.
 
@@ -65,7 +65,7 @@ Any content you create, edit, upload, or submit is your sole responsibility as a
 
 By interacting with the Hubs Instance you agree that you will comply with the [Acceptable Use Policy](./acceptable-use.md).  The Instance Owner reserves the right to take any action deemed necessary for any violations of this policy or these Terms of Service, including (but not limited to) removing content, suspending users, shutting down rooms, deleting accounts, and so forth.
 
-Furthermore, you acknowledge and agree that the Hubs Instance is primarily for testing purposes and there is no guarantee that the Hubs Instance will be available at any given time or have any given functionality.  Accounts on the Hubs Instance will also be deleted regularly (once a week) in order to keep the used storage space low.
+Furthermore, you acknowledge and agree that the Hubs Instance is primarily for testing purposes and there is no guarantee that the Hubs Instance will be available at any given time or have any given functionality.  Accounts (and their associated data, i.e. all scenes, avatars, uploaded objects, etc.) on the Hubs Instance will also be deleted regularly (once a week) in order to keep the used storage space low.
 
 ## Claims
 
